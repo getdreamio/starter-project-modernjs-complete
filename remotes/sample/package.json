@@ -1,0 +1,27 @@
+{
+	"name": "remote-sample",
+	"version": "2.0.0",
+	"private": true,
+	"scripts": {
+		"start": "rspack serve",
+		"build": "rspack --mode production",
+		"serve": "serve dist",
+		"clean": "rm -rf dist"
+	},
+	"dependencies": {
+		"react": "^19.0.0",
+		"react-dom": "^19.0.0",
+		"react-helmet": "^6.1.0",
+		"@dream.mf/core": "1.4.0",
+		"@dream.mf/logging": "1.5.1",
+		"@dream.mf/bundlers": "0.5.2",
+		"@dream.mf/oidc": "1.2.2"
+	},
+	"devDependencies": {
+		"serve": "11.3.2",
+		"typescript": "^5.2.2",
+		"@types/react": "19.0.0",
+		"@types/react-dom": "19.0.0",
+		"@module-federation/enhanced": "0.8.7"
+	}
+}

@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  font-weight: 300;
+  color: white;
+  background-color: #1a223f;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+nav a {
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  text-decoration: none;
+}
