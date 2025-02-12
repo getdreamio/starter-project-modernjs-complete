@@ -1,12 +1,15 @@
 {
-	"extends": "../tsconfig.base.json",
-	"compilerOptions": {
-		"outDir": "lib",
-		"rootDir": "src",
-	},
-	"typeAcquisition": {
-		"enable": true,
-		"exclude": ["./node_modules"]
-	},
-	"include": ["src"]
+  "extends": "../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "lib",
+    "rootDir": "src",
+    "paths": {
+      "@api/*": ["./api/lambda/*"]
+    }
+  },
+  "typeAcquisition": {
+    "enable": true,
+    "exclude": ["./node_modules"]
+  },
+  "include": ["src", "api"]
 }
