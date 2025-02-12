@@ -12,17 +12,6 @@
 		"prepare": "simple-git-hooks",
 		"upgrade": "modern upgrade"
 	},
-	"engines": {
-		"node": ">=16.18.1"
-	},
-	"lint-staged": {
-		"*.{js,ts,cjs,mjs,d.cts,d.mts,jsx,tsx,json,jsonc}": [
-			"biome check --files-ignore-unknown=true"
-		]
-	},
-	"simple-git-hooks": {
-		"pre-commit": "npx lint-staged"
-	},
 	"dependencies": {
 		"@dream.mf/bundlers": "0.5.2",
 		"@dream.mf/core": "1.4.0",

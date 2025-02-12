@@ -27,10 +27,17 @@ const AboutPage = () => {
 					<li>Bundlers - Out of the box build and deployment tools</li>
 				</ul>
 				<br />
+					<h3 className="text-xl font-bold mb-2">Remote Orchestration Services</h3>
+					<ul className="list-disc pl-5 mb-4">
+					<li>ROS Frontend: <a target="_blank" href="http://localhost:3000">http://localhost:3000</a></li>
+					<li>ROS Remote CDN: <a target="_blank" href="https://localhost:4001/remotes/">https://localhost:4001/remotes/</a></li>
+					<li>ROS Backend Swagger: <a target="_blank" href="https://localhost:4001/swagger/">https://localhost:4001/swagger/</a></li>
+				</ul>
+				<br />
 				<h3 className="text-xl font-bold mb-2">Technologies Used</h3>
 				<ul className="list-disc pl-5 mb-4">
 					<li>React - A JavaScript library for building user interfaces</li>
-					<li>React Router - For routing and navigation</li>
+					<li>ModernJS - For frontend engine and routing</li>
 					<li>Tailwind CSS - A utility-first CSS framework for styling</li>
 					<li>Dream.mf - A microfrontend framework for modular architecture</li>
 					<li>
